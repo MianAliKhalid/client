@@ -1,0 +1,15 @@
+[
+    { "to": "users", "title": "Users", "icon": "FaUser" },
+    { "to": "contacts", "title": "Contacts", "icon": "FaAddressBook" },
+    { "to": "services", "title": "Services", "icon": "FaServicestack" },
+    { 
+        "to": "form", 
+        "title": "Forms", 
+        "icon": "FaFileAlt",
+        "subItems": [
+            { "to": "form/approved", "title": "Approved", "icon": "FaCheck" },
+            { "to": "form/pending", "title": "Pending", "icon": "FaClock" }
+        ]
+    },
+    { "to": "/logout", "title": "Logout", "icon": "FaSignOutAlt" }
+]
