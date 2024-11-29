@@ -1,0 +1,94 @@
+# React + Vite Project Documentation  
+
+This document provides a detailed overview of a React application built with Vite, including its features, structure, and how to set it up for development.  
+
+---
+
+## **Introduction**  
+
+Hello, I am **Mian Ali Khalid**, the developer behind this project. This application showcases modern web development practices, featuring authentication, file management, and responsive design. You can explore the live version at:  
+[Live Demo](https://client-zeta-ruby-27.vercel.app)  
+
+---
+
+## **Technologies Used**  
+
+This project incorporates the following cutting-edge tools and libraries:  
+
+- **React**: For building dynamic and responsive user interfaces.  
+- **Vite**: A fast build tool delivering a lean development experience for modern projects.  
+- **Tailwind CSS**: A utility-first CSS framework for rapid and flexible UI design.  
+- **React Router**: For managing navigation and routing in the application.  
+- **React Toastify**: A library for seamless notifications integration.  
+- **Vercel**: For hosting the application with streamlined deployment and performance.  
+- **MongoDB**: A NoSQL database for efficient and scalable data storage.  
+
+---
+
+## **Project Structure**  
+
+The project follows a modular structure, ensuring scalability and maintainability:  
+
+```         # Environment variables  
+```  
+
+*Illustrative Example:*  
+![Project Structure Image](image.png)  
+
+---
+
+## **Getting Started**  
+
+Follow these steps to set up the project on your local machine.  
+
+### **Prerequisites**  
+
+Ensure you have the following tools installed:  
+- **Node.js** (Latest LTS version recommended)  
+- **npm** (Node Package Manager)  
+
+### **Installation**  
+
+1. **Clone the Repository**  
+   Open your terminal and execute:  
+   ```bash  
+   git clone https://github.com/your-username/your-repo-name.git  
+   ```  
+
+2. **Install Dependencies**  
+   Navigate to the project folder and install the required packages:  
+   ```bash  
+   npm install  
+   ```  
+
+3. **Configure Environment Variables**  
+   Create a `.env` file in the root directory and define your environment variables. Example:  
+   ```env  
+   VITE_BASE_URL=<your-api-base-url>  
+   ```  
+
+### **Running the Application**  
+
+Start the development server:  
+```bash  
+npm run dev  
+```  
+
+---
+
+## **Features**  
+
+- **Authentication System**: Secure login and registration workflows.  
+- **File Management**: Upload and manage files seamlessly using MongoDB.  
+- **Responsive Design**: Optimized for both desktop and mobile devices.  
+- **Interactive Notifications**: Powered by React Toastify.  
+
+---
+
+## **Deployment**  
+
+The project is deployed on **Vercel** for a fast, scalable, and secure hosting experience.  
+
+---
+
+Feel free to contribute or share feedback! Thank you for checking out the project. 🎉
