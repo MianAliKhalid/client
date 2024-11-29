@@ -52,7 +52,7 @@ Ensure you have the following tools installed:
 1. **Clone the Repository**  
    Open your terminal and execute:  
    ```bash  
-   git clone https://github.com/your-username/your-repo-name.git  
+   git clone https://github.com/MianAliKhalid/client
    ```  
 
 2. **Install Dependencies**  
