@@ -19,7 +19,6 @@ export const AdminLayout = () => {
   const [error, setError] = useState(null);
   useEffect(() => {
     if (!user || isLoading) return;
-    // console.log("User RRRR:", user.role);
 
 
     const fetchStats = async () => {

@@ -15,24 +15,25 @@ export const AdminServicesUpdate = () => {
     });
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [imageFile, setImageFile] = useState(null); // Store selected image file
+    const [imageFile, setImageFile] = useState(null); 
 
     useEffect(() => {
         const fetchServiceData = async () => {
             try {
-                const response = await fetch(`${import.meta.env.VITE_BASE_URL}/services/${id}`, {
+                const response = await fetch(`${import.meta.env.VITE_BASE_URL}api/services/${id}`, {
                     method: 'GET',
                     headers: {
                         'Authorization': authorizationToken,
                     },
                 });
-
+                // console.log(response)
                 if (!response.ok) {
-                    throw new Error('Failed to fetch service data');
+                    throw new Error('Failed too fetch service data');
                 }
 
                 const data = await response.json();
-                setService(data.service);
+                
+                setService(data);
                 setLoading(false);
             } catch (error) {
                 setError(error.message);

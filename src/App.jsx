@@ -61,15 +61,12 @@ function App() {
             <Route path="contacts" element={<AdminContacts />} />
             <Route path="contacts/:id/view" element={<AdminContactView />} />
             <Route path="services/add" element={<AdminAddService />} />
+            <Route path="services/update/:id/edit" element={<AdminServicesUpdate />}/>
             <Route path="services" element={<AdminServices />} />
             <Route path="form" element={<AdminQuery />} />
             <Route path="form/approved" element={<QueryApprove />} />
             <Route path="form/pending" element={<QueryPending />} />
 
-            <Route
-              path="services/update/:id/edit"
-              element={<AdminServicesUpdate />}
-            />
           </Route>
 
           <Route path="/*" element={<Error />} />
