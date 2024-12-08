@@ -97,11 +97,11 @@ const Home = () => {
                   alt={service.title}
                   className="w-full h-40 object-cover rounded-lg mb-4"
                 />
-                <div className="mb-4">
+                {/* <div className="mb-4">
                   <FaCheckCircle className="text-4xl text-pink-400" />
-                </div>
+                </div> */}
                 <h3 className="text-2xl font-semibold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500">
-                  {service.title}
+                  {service.name}
                 </h3>
                 <p className="text-gray-300">{service.description}</p>
               </div>
