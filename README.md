@@ -30,12 +30,40 @@ A full-featured web application built with React, featuring user authentication,
 
 ## 🛠️ Tech Stack
 
-- React.js
-- Tailwind CSS
-- React Router Dom
-- React Icons
-- React Toastify
-- Vite
+### Frontend
+- **React.js** - UI library
+- **Vite** - Build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router Dom (v6)** - Client-side routing
+- **React Icons** - Icon components
+- **React Toastify** - Toast notifications
+
+### State Management & Authentication
+- **React Context API** - Global state management
+- **JWT** - Token-based authentication
+- **localStorage** - Client-side storage
+
+### File Management
+- **File API** - File handling and uploads
+- **URL API** - URL handling and preview
+
+### Development Tools
+- **ESLint** - Code linting
+- **Prettier** - Code formatting
+- **npm** - Package management
+
+### Security
+- **dotenv** - Environment variable management
+- **HTTP-Only Cookies** - Secure token storage
+- **CORS** - Cross-Origin Resource Sharing
+
+### UI/UX Features
+- Responsive design
+- Dark/Light theme support
+- Modern glassmorphism effects
+- Interactive loading states
+- Form validation
+- Error handling
 
 ## 🏗️ Project Structure
 
